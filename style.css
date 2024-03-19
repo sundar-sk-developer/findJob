@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-item{
+    padding-left: 30px;
+}
+li .nav-link{
+    color:darkblue !important;
+}
+li .nav-link:hover{
+    color: red !important;
+}
+.btn0{
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.btn0:hover{
+    background-color: rgb(160, 9, 9);
+}
+.btn1{
+    padding: 7px 25px;
+    margin-left: 5px;
+    border: 1px solid red;
+    color: RED;
+    background-color: transparent;
+
+}
+.btn1:hover{
+    background-color: red;
+    color: white;
+}
+.first h1{
+    font-size: 5rem;
+    font-weight: 800;
+    color: darkblue;
+    margin-bottom:40px;
+    
+}
+.search{
+    height: 50px;
+}
+.btn3{
+    padding: 13px 25px;
+    margin-left: 5px;
+    color:white;
+    border: none;
+    background-color: red;
+    margin-left: -5px;
+}
+.btn3:hover{
+    background-color: rgb(160, 9, 9);
+}
+.second img{
+    width:60px;
+}
+.second p{
+    color: red;
+}
+.card:hover{
+    -webkit-box-shadow: 10px 11px 14px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 11px 14px -6px rgba(0,0,0,0.75);
+box-shadow: 10px 11px 14px -6px rgba(0,0,0,0.75);
+transition: all .4s;
+}
+.btn4{
+    margin-left: 42%;
+    text-align: center;
+    padding: 15px 35px;
+    border: 2px solid rgb(130, 116, 217);
+    color: rgb(122, 107, 215);
+    background-color: transparent;
+    margin-bottom: 50px;
+    font-size: 14px;
+}
+.btn4:hover{
+    background-color:rgb(104, 90, 190); 
+    color: white;
+    transition: all.5s;
+}
+.third {
+    position: relative;
+    z-index: 1;
+}
+
+.third{
+    width: 100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(4,11,75,0.719),rgba(4,26,100,0.73)),url(img/linkedin-sales-solutions-QgYvORVDdd8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btn6 {
+    border: 1px solid rgb(108, 94, 199);
+    color:rgb(108, 94, 199); ;
+}
+.btn6:hover{
+    background-color:rgb(108, 94, 199) !important;
+    color: white;
+    transition: all 0.4s;
+}
+.third p{
+    font-size: 14px;
+    color: white;
+}
+.third h1{
+    font-weight: 600;
+    color: white;
+}
+#cont{
+    margin-top: 15%;
+}
+.fourth p{
+    color: red;
+}
+.fourth h1{
+    font-weight: 700;
+    color: darkslateblue;
+}
+.btn5{
+    font-size: 14px;
+    padding: 15px 60px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+.btn5:hover{
+    background-color: rgb(198, 0, 0);
+}
+.fourth img{
+    width: 100%;
+    height: fit-content;
+}
+.five{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/pexels-tara-winstead-8386440.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.five h6{
+    margin-top: 50px;
+    color: red;
+}
+.five h1{
+    color: white;
+}
+.five h4{
+    color: white;
+}
+.five p{
+    color: white;
+}
+.five .card img{
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: white;
+} 
+.five .card{
+    background-color: rgba(0, 56, 134, 0.7);
+}
+.six img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.six{
+    margin-left: 25%;
+}
+.btn7{
+    padding: 10px 40px;
+    background-color: red;
+    color: white;
+    border:none;
+}
+.btn7:hover{
+    background-color: rgb(164, 7, 7);
+}
+.creative-manager{
+    font-size: 12px;
+}
+footer p{
+    font-size: 14px;
+    margin-top: 30px;
+    color: rgb(84, 75, 134);
+}
+footer p:hover{
+    color: red;
+    padding-left: 10px;
+    transition: all .3s;
+}
+.send{
+    color: white;
+    padding: 5px 10px;
+    background-color: red;
+    border: none;
+    margin-left: -5px;
+}
+footer input{
+    height: 35px;
+}
+@media (min-width: 320px) and (max-width:480px) {  
+    .five{
+    height: 210vh;
+}
+ .five .card {
+    margin-top: 10px;
+ }
+ .six{
+    margin-left: 0%;
+}
+.fourth img{
+    margin-top: 20px;
+}
+.btn4{
+    
+    margin-left: 17%;
+}
+footer{
+    text-align: center;
+}
+.first h1{
+    font-size: 4rem;
+}
+   
+}  
+   
+
